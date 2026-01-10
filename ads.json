@@ -26,5 +26,61 @@
         "cta_text": "View Collection",
         "active": true,
         "priority": 2
+    },
+    {
+        "id": 303,
+        "title": "Modern Business Suits",
+        "description": "Tailored suits and formal wear for professionals in Colombo.",
+        "image_url": "https://images.unsplash.com/photo-1520975918318-3c8c6c8fbb7a?q=80&w=800&auto=format&fit=crop",
+        "video_url": null,
+        "target_url": "https://colombomodernsuits.t.tailors.lk",
+        "ad_type": "banner",
+        "location": "Colombo",
+        "sponsor_name": "Colombo Modern Tailors",
+        "cta_text": "Order Now",
+        "active": true,
+        "priority": 3
+    },
+    {
+        "id": 304,
+        "title": "Galle Coastal Styles",
+        "description": "Casual wear and linen tailoring inspired by coastal living.",
+        "image_url": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=800&auto=format&fit=crop",
+        "video_url": null,
+        "target_url": "https://gallecoastal.t.tailors.lk",
+        "ad_type": "banner",
+        "location": "Galle",
+        "sponsor_name": "Galle Coastal Tailoring",
+        "cta_text": "Explore Styles",
+        "active": true,
+        "priority": 4
+    },
+    {
+        "id": 305,
+        "title": "Negombo Beachwear Tailors",
+        "description": "Custom swimwear and beach outfits designed for comfort and style.",
+        "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?q=80&w=800&auto=format&fit=crop",
+        "video_url": "https://data.tailors.lk/videos/negombo-beachwear.mp4",
+        "target_url": "https://negombobeach.t.tailors.lk",
+        "ad_type": "video",
+        "location": "Negombo",
+        "sponsor_name": "Negombo Beach Tailors",
+        "cta_text": "Shop Beachwear",
+        "active": true,
+        "priority": 5
+    },
+    {
+        "id": 306,
+        "title": "Dambulla Artisan Embroidery",
+        "description": "Handmade embroidery and traditional attire crafted by artisans.",
+        "image_url": "https://images.unsplash.com/photo-1541099649105-f69ad21f6a3c?q=80&w=800&auto=format&fit=crop",
+        "video_url": null,
+        "target_url": "https://dambullaartisan.t.tailors.lk",
+        "ad_type": "banner",
+        "location": "Dambulla",
+        "sponsor_name": "Dambulla Artisan Tailors",
+        "cta_text": "View Designs",
+        "active": true,
+        "priority": 6
     }
 ]
