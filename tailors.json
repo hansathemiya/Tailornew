@@ -1,0 +1,31 @@
+[
+    {
+        "id": 101,
+        "name": "Premium Tailor Colombo",
+        "area": "Colombo 07",
+        "services": ["Blouse Stitching", "Saree Fitting", "Custom Suits", "Wedding Wear"],
+        "phone": "94771234567",
+        "profile_url": "premiumtailor.t.tailors.lk",
+        "rating": 4.9,
+        "rating_count": 42,
+        "featured": true,
+        "sponsor_tier": "premium",
+        "highlight_color": "#b9915f",
+        "location": "Colombo",
+        "description": "Premium tailoring services with 20+ years experience"
+    },
+    {
+        "id": 102,
+        "name": "Kandy Traditional Tailors",
+        "area": "Kandy City Center",
+        "services": ["Traditional Wear", "Wedding Outfits", "Alterations", "Kandyan Saree"],
+        "phone": "94712345678",
+        "profile_url": "kandytraditional.t.tailors.lk",
+        "rating": 4.7,
+        "rating_count": 35,
+        "featured": true,
+        "sponsor_tier": "featured",
+        "location": "Kandy",
+        "description": "Specialists in traditional Sri Lankan attire"
+    }
+]
