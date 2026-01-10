@@ -1,82 +1,102 @@
 [
-  {
-    "id": 1,
-    "tailor_id": 1,
-    "name": "Nimal Perera",
-    "stars": 5,
-    "photo": "/static/photos/nimal.jpg",
-    "review": "Perfect fit for my wedding suit..."
-  },
-  {
-    "id": 2,
-    "tailor_id": 1,
-    "name": "Amina Yusuf",
-    "stars": 4,
-    "photo": "/static/photos/amina.jpg",
-    "review": "Good stitching quality and timely delivery. Will recommend to friends."
-  },
-  {
-    "id": 3,
-    "tailor_id": 2,
-    "name": "Ruwan Fernando",
-    "stars": 5,
-    "photo": "/static/photos/ruwan.jpg",
-    "review": "Excellent craftsmanship, the kurta was exactly how I imagined."
-  },
-  {
-    "id": 4,
-    "tailor_id": 2,
-    "name": "Shanika Jayawardena",
-    "stars": 3,
-    "photo": "/static/photos/shanika.jpg",
-    "review": "Design was nice but delivery took longer than expected."
-  },
-  {
-    "id": 5,
-    "tailor_id": 3,
-    "name": "Mohammed Ali",
-    "stars": 4,
-    "photo": "/static/photos/mohammed.jpg",
-    "review": "Great fitting shirts, will order again."
-  },
-  {
-    "id": 6,
-    "tailor_id": 3,
-    "name": "Dilani Silva",
-    "stars": 5,
-    "photo": "/static/photos/dilani.jpg",
-    "review": "Loved the sari blouse stitching, very comfortable and stylish."
-  },
-  {
-    "id": 7,
-    "tailor_id": 4,
-    "name": "Kavindu Wickramasinghe",
-    "stars": 4,
-    "photo": "/static/photos/kavindu.jpg",
-    "review": "Suit was well made, minor adjustments needed but overall very good."
-  },
-  {
-    "id": 8,
-    "tailor_id": 4,
-    "name": "Farah Rahman",
-    "stars": 5,
-    "photo": "/static/photos/farah.jpg",
-    "review": "Amazing bridal lehenga, detailed embroidery and perfect fit."
-  },
-  {
-    "id": 9,
-    "tailor_id": 5,
-    "name": "Sunil Abeysekera",
-    "stars": 3,
-    "photo": "/static/photos/sunil.jpg",
-    "review": "Affordable prices but stitching could be improved."
-  },
-  {
-    "id": 10,
-    "tailor_id": 5,
-    "name": "Priya Nadarajah",
-    "stars": 5,
-    "photo": "/static/photos/priya.jpg",
-    "review": "Outstanding tailoring service, they made my dress look elegant and classy."
-  }
+    {
+        "id": 201,
+        "tailor_id": 101,
+        "name": "Nimal Perera",
+        "stars": 5,
+        "photo": "/static/photos/nimal.jpg",
+        "review": "Perfect fit for my wedding suit. Excellent craftsmanship and attention to detail. Highly recommend!",
+        "location": "Colombo",
+        "date": "2024-03-15"
+    },
+    {
+        "id": 202,
+        "tailor_id": 102,
+        "name": "Shanika Fernando",
+        "stars": 4,
+        "photo": "/static/photos/shanika.jpg",
+        "review": "Found a fantastic local tailor through this platform. My blouse stitching was done perfectly.",
+        "location": "Kandy",
+        "date": "2024-03-10"
+    },
+    {
+        "id": 203,
+        "tailor_id": 103,
+        "name": "Ruwan Jayasinghe",
+        "stars": 5,
+        "photo": "/static/photos/ruwan.jpg",
+        "review": "Amazing service! My office shirts were tailored to perfection and delivered on time.",
+        "location": "Galle",
+        "date": "2024-03-08"
+    },
+    {
+        "id": 204,
+        "tailor_id": 104,
+        "name": "Dilani Weerasinghe",
+        "stars": 3,
+        "photo": "/static/photos/dilani.jpg",
+        "review": "The stitching was good but delivery took longer than expected.",
+        "location": "Negombo",
+        "date": "2024-03-05"
+    },
+    {
+        "id": 205,
+        "tailor_id": 105,
+        "name": "Kasun Silva",
+        "stars": 4,
+        "photo": "/static/photos/kasun.jpg",
+        "review": "Great craftsmanship on my kurta. Will definitely return for more orders.",
+        "location": "Matara",
+        "date": "2024-03-02"
+    },
+    {
+        "id": 206,
+        "tailor_id": 106,
+        "name": "Tharushi Abeykoon",
+        "stars": 5,
+        "photo": "/static/photos/tharushi.jpg",
+        "review": "My saree blouse was stitched beautifully. The tailor understood exactly what I wanted.",
+        "location": "Kurunegala",
+        "date": "2024-02-28"
+    },
+    {
+        "id": 207,
+        "tailor_id": 107,
+        "name": "Sajith Wickramasinghe",
+        "stars": 4,
+        "photo": "/static/photos/sajith.jpg",
+        "review": "Good quality tailoring for my trousers. Price was reasonable too.",
+        "location": "Anuradhapura",
+        "date": "2024-02-25"
+    },
+    {
+        "id": 208,
+        "tailor_id": 108,
+        "name": "Menaka Rathnayake",
+        "stars": 5,
+        "photo": "/static/photos/menaka.jpg",
+        "review": "Excellent work on my bridal dress. Couldn’t have asked for better service.",
+        "location": "Colombo",
+        "date": "2024-02-20"
+    },
+    {
+        "id": 209,
+        "tailor_id": 109,
+        "name": "Chathura Bandara",
+        "stars": 3,
+        "photo": "/static/photos/chathura.jpg",
+        "review": "The tailoring was fine but the fitting needed a few adjustments.",
+        "location": "Jaffna",
+        "date": "2024-02-18"
+    },
+    {
+        "id": 210,
+        "tailor_id": 110,
+        "name": "Harini Senanayake",
+        "stars": 5,
+        "photo": "/static/photos/harini.jpg",
+        "review": "Absolutely loved the stitching of my lehenga. Professional and friendly service.",
+        "location": "Batticaloa",
+        "date": "2024-02-15"
+    }
 ]
