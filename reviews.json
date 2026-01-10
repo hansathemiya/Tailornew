@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "tailor_id": 1,
+    "name": "Nimal Perera",
+    "stars": 5,
+    "photo": "/static/photos/nimal.jpg",
+    "review": "Perfect fit for my wedding suit..."
+  },
+  {
+    "id": 2,
+    "tailor_id": 1,
+    "name": "Amina Yusuf",
+    "stars": 4,
+    "photo": "/static/photos/amina.jpg",
+    "review": "Good stitching quality and timely delivery. Will recommend to friends."
+  },
+  {
+    "id": 3,
+    "tailor_id": 2,
+    "name": "Ruwan Fernando",
+    "stars": 5,
+    "photo": "/static/photos/ruwan.jpg",
+    "review": "Excellent craftsmanship, the kurta was exactly how I imagined."
+  },
+  {
+    "id": 4,
+    "tailor_id": 2,
+    "name": "Shanika Jayawardena",
+    "stars": 3,
+    "photo": "/static/photos/shanika.jpg",
+    "review": "Design was nice but delivery took longer than expected."
+  },
+  {
+    "id": 5,
+    "tailor_id": 3,
+    "name": "Mohammed Ali",
+    "stars": 4,
+    "photo": "/static/photos/mohammed.jpg",
+    "review": "Great fitting shirts, will order again."
+  },
+  {
+    "id": 6,
+    "tailor_id": 3,
+    "name": "Dilani Silva",
+    "stars": 5,
+    "photo": "/static/photos/dilani.jpg",
+    "review": "Loved the sari blouse stitching, very comfortable and stylish."
+  },
+  {
+    "id": 7,
+    "tailor_id": 4,
+    "name": "Kavindu Wickramasinghe",
+    "stars": 4,
+    "photo": "/static/photos/kavindu.jpg",
+    "review": "Suit was well made, minor adjustments needed but overall very good."
+  },
+  {
+    "id": 8,
+    "tailor_id": 4,
+    "name": "Farah Rahman",
+    "stars": 5,
+    "photo": "/static/photos/farah.jpg",
+    "review": "Amazing bridal lehenga, detailed embroidery and perfect fit."
+  },
+  {
+    "id": 9,
+    "tailor_id": 5,
+    "name": "Sunil Abeysekera",
+    "stars": 3,
+    "photo": "/static/photos/sunil.jpg",
+    "review": "Affordable prices but stitching could be improved."
+  },
+  {
+    "id": 10,
+    "tailor_id": 5,
+    "name": "Priya Nadarajah",
+    "stars": 5,
+    "photo": "/static/photos/priya.jpg",
+    "review": "Outstanding tailoring service, they made my dress look elegant and classy."
+  }
+]
