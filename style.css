@@ -1,5 +1,5 @@
 /* Tailors.lk - Main Stylesheet */
-/* Version: 1.0.0 | Last Updated: 2024-03-20 */
+/* Version: 3.0.1 | Last Updated: 2025-01-10 */
 
 /* ==========================================================================
    CSS Variables (Custom Properties)
@@ -222,6 +222,24 @@ header.site-header {
     color: #fff;
 }
 
+/* Learn Section Button */
+.btn-learn {
+    background: var(--teal);
+    color: white;
+    padding: 10px 16px;
+    border-radius: 12px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.25s ease;
+}
+
+.btn-learn:hover {
+    background: var(--teal-800);
+    transform: translateY(-2px);
+}
+
 /* ==========================================================================
    Mobile Menu
    ========================================================================== */
@@ -346,7 +364,7 @@ header.site-header {
     color: #0d2430;
     background:
         linear-gradient(180deg, rgba(31, 78, 95, 0.8), rgba(31, 78, 95, 0.65)),
-        url('https://images.unsplash.com/photo-1620483905173-6c342ad153cd?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;
+        url('https://images.unsplash.com/photo-1620483905173-6c342ad153cd?q=80&w=1600&auto=format&fit=crop  ') center/cover no-repeat;
     color: #fff;
 }
 
@@ -502,6 +520,7 @@ section {
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
 }
 
 .special-card:hover {
@@ -538,6 +557,28 @@ section {
     font-weight: 700;
     font-size: 13px;
     margin-bottom: 10px;
+}
+
+/* Carousel Controls */
+.carousel-nav {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(31, 78, 95, 0.2);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.carousel-dot.active {
+    background: var(--teal);
 }
 
 /* ==========================================================================
@@ -919,18 +960,50 @@ section {
 }
 
 /* ==========================================================================
+   Learn Section
+   ========================================================================== */
+.learn-section {
+    background: linear-gradient(135deg, #f0f8ff 0%, #eaf2f4 100%);
+    padding: 60px 0;
+    border-top: 2px solid var(--teal);
+    border-bottom: 2px solid var(--teal);
+}
+
+.learn-section h2 {
+    color: var(--teal);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.learn-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.learn-content p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
    Footer
    ========================================================================== */
 footer {
     background: var(--teal-900);
     color: #eaf2f4;
     margin-top: 40px;
+    border-bottom: 1px solid rgba(255,255,255,.12);
 }
 
 .footer-grid {
     display: grid;
     gap: 18px;
     grid-template-columns: 1fr;
+    padding: 30px 0;
 }
 
 footer a {
@@ -1027,6 +1100,10 @@ footer a {
     .ad-spots-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    .learn-content {
+        padding: 0 40px;
+    }
 }
 
 /* Desktop Breakpoint (900px) */
@@ -1050,6 +1127,10 @@ footer a {
     
     .specials-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .learn-content {
+        padding: 0 60px;
     }
 }
 
