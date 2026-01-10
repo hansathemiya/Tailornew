@@ -1,0 +1,30 @@
+[
+    {
+        "id": 301,
+        "title": "Premium Wedding Tailors",
+        "description": "Sri Lanka's #1 wedding tailoring service. Book your bridal wear today!",
+        "image_url": "https://images.unsplash.com/photo-1595429035839-c99c298ffdde?q=80&w=800&auto=format&fit=crop",
+        "video_url": null,
+        "target_url": "https://premiumweddingtailors.t.tailors.lk",
+        "ad_type": "banner",
+        "location": "Colombo",
+        "sponsor_name": "Elite Tailors Colombo",
+        "cta_text": "Book Consultation",
+        "active": true,
+        "priority": 1
+    },
+    {
+        "id": 302,
+        "title": "Traditional Kandyan Tailors",
+        "description": "Authentic Kandyan traditional wear specialists with 30+ years experience.",
+        "image_url": "https://images.unsplash.com/photo-1585487000160-6eb9ce6b5a73?q=80&w=800&auto=format&fit=crop",
+        "video_url": "https://data.tailors.lk/videos/kandyan-traditional.mp4",
+        "target_url": "https://kandyantraditional.t.tailors.lk",
+        "ad_type": "video",
+        "location": "Kandy",
+        "sponsor_name": "Kandyan Heritage Tailors",
+        "cta_text": "View Collection",
+        "active": true,
+        "priority": 2
+    }
+]
