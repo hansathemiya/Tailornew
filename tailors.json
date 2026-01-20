@@ -36,7 +36,7 @@
       "payment_methods": ["Cash", "Credit Card", "Debit Card", "Bank Transfer"],
       "photos": ["tailor1_shop.jpg", "tailor1_work.jpg"],
       "featured": true,
-      "verified": true,
+      "verified": false,
       "join_date": "2024-01-15"
     },
     {
@@ -192,7 +192,7 @@
       "payment_methods": ["Cash"],
       "photos": ["tailor5_quick.jpg", "tailor5_shop.jpg"],
       "featured": false,
-      "verified": true,
+      "verified": false,
       "join_date": "2024-04-12"
     },
     {
