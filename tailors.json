@@ -119,24 +119,24 @@
     },
     {
       "id": 3,
-      "name": "Traditional Polonnaruwa Atelier",
-      "area": "Polonnaruwa Airport Road",
-      "city": "Polonnaruwa",
+      "name": "Traditional Maharagama Atelier",
+      "area": "Maharagama Airport Road",
+      "city": "Maharagama",
       "services": [
         "Children's Wear",
         "Embroidery"
       ],
       "phone": "94749088859",
       "whatsapp": "94700703072",
-      "profile_url": "polonnaruwa3.tailors.lk",
-      "email": "tyoca@polonnaruwa.lk",
+      "profile_url": "pmaharaa3.tailors.lk",
+      "email": "tyoca@amamaharag.lk",
       "rating": 3.9,
       "review_count": 25,
       "experience": "expert",
       "experience_years": 30,
       "price_range": "premium",
       "availability": "month",
-      "description": "Professional tailoring services in Polonnaruwa specializing in Formal Wear. Quality craftsmanship with attention to detail.",
+      "description": "Professional tailoring services in Maharagama specializing in Formal Wear. Quality craftsmanship with attention to detail.",
       "specializations": [
         "Formal Wear"
       ],
@@ -149,7 +149,7 @@
       "languages": [
         "Tamil"
       ],
-      "address": "670 Temple Rd, Airport Road, Polonnaruwa",
+      "address": "670 Temple Rd, Airport Road, Maharagama",
       "latitude": 8.341,
       "longitude": 80.0039,
       "opening_hours": {
