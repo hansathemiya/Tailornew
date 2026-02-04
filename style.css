@@ -1,4 +1,8 @@
-/* Reset and Base Styles */
+/* styles.css - Complete CSS for Tailors.lk Profile Template */
+/* ==========================================================================
+   Reset & Base Styles
+   ========================================================================== */
+
 * {
     margin: 0;
     padding: 0;
@@ -31,20 +35,20 @@ html, body {
     --error-text: #7f1d1d;
     --error-border: rgba(239, 68, 68, 0.2);
     --footer-bg: #111827;
-
+    
     /* Spacing */
     --spacing-xs: 0.4rem;
     --spacing-sm: 0.8rem;
     --spacing-md: 1.2rem;
     --spacing-lg: 1.6rem;
     --spacing-xl: 2.4rem;
-
+    
     /* Border Radius */
     --radius-sm: 0.4rem;
     --radius-md: 0.8rem;
     --radius-lg: 1.2rem;
     --radius-full: 9999px;
-
+    
     /* Transitions */
     --transition-base: all 0.2s ease;
 }
@@ -59,7 +63,10 @@ body {
     position: relative;
 }
 
-/* Container */
+/* ==========================================================================
+   Container
+   ========================================================================== */
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -74,7 +81,10 @@ body {
     }
 }
 
-/* Header Styles */
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
+
 .main-header {
     background: var(--glass-bg);
     backdrop-filter: blur(18px) saturate(160%);
@@ -118,7 +128,7 @@ body {
     color: var(--color-primary);
 }
 
-/* Navigation */
+/* Desktop Navigation */
 .nav-desktop {
     display: none;
     align-items: center;
@@ -308,7 +318,10 @@ body {
     display: block;
 }
 
-/* Tier System */
+/* ==========================================================================
+   Tier System
+   ========================================================================== */
+
 .tier-free {
     --tier-glow: rgba(107, 114, 128, 0.1);
     --tier-border: var(--color-free);
@@ -334,7 +347,10 @@ body {
     transition: box-shadow 0.3s ease;
 }
 
-/* Glass Panel Base */
+/* ==========================================================================
+   Glass Panel Base
+   ========================================================================== */
+
 .glass-panel {
     background: var(--glass-bg);
     backdrop-filter: blur(18px) saturate(160%);
@@ -344,7 +360,10 @@ body {
     border-radius: var(--radius-md);
 }
 
-/* Profile Header */
+/* ==========================================================================
+   Profile Header
+   ========================================================================== */
+
 .profile-header {
     position: relative;
     margin-bottom: var(--spacing-xl);
@@ -385,7 +404,10 @@ body {
     gap: 0.5rem;
 }
 
-/* Profile Hero */
+/* ==========================================================================
+   Profile Hero
+   ========================================================================== */
+
 .profile-hero {
     position: relative;
     margin-top: -60px;
@@ -551,7 +573,10 @@ h1 {
     font-size: 0.9rem;
 }
 
-/* CTA Buttons */
+/* ==========================================================================
+   CTA Buttons
+   ========================================================================== */
+
 .cta-row {
     display: flex;
     gap: var(--spacing-sm);
@@ -597,7 +622,10 @@ h1 {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* Review Buttons */
+/* ==========================================================================
+   Review Buttons
+   ========================================================================== */
+
 .add-review-btn {
     background: linear-gradient(135deg, #ec4899, #d946ef);
     color: white;
@@ -653,7 +681,10 @@ h1 {
     flex-wrap: wrap;
 }
 
-/* Sticky CTA for Mobile - FIXED */
+/* ==========================================================================
+   Sticky CTA for Mobile
+   ========================================================================== */
+
 .sticky-cta {
     position: fixed;
     bottom: 0;
@@ -723,7 +754,10 @@ h1 {
     }
 }
 
-/* Profile Layout */
+/* ==========================================================================
+   Profile Layout
+   ========================================================================== */
+
 .profile-content {
     display: block;
     margin-bottom: var(--spacing-xl);
@@ -751,7 +785,10 @@ h1 {
     grid-column: 2;
 }
 
-/* Tag Styles */
+/* ==========================================================================
+   Tag Styles
+   ========================================================================== */
+
 .tag-section {
     margin-bottom: var(--spacing-xl);
 }
@@ -834,7 +871,10 @@ h3 {
     border-radius: var(--radius-full);
 }
 
-/* Reviews Section */
+/* ==========================================================================
+   Reviews Section
+   ========================================================================== */
+
 .profile-reviews {
     margin-bottom: var(--spacing-lg);
 }
@@ -927,7 +967,10 @@ h3 {
     line-height: 1.5;
 }
 
-/* Gallery Collage */
+/* ==========================================================================
+   Gallery Collage
+   ========================================================================== */
+
 .gallery-collage {
     margin-bottom: var(--spacing-lg);
 }
@@ -1059,7 +1102,10 @@ h3 {
     text-decoration: none;
 }
 
-/* Form Styles */
+/* ==========================================================================
+   Form Styles
+   ========================================================================== */
+
 .contact-form {
     margin: var(--spacing-xl) 0;
 }
@@ -1136,7 +1182,10 @@ h3 {
     box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
 }
 
-/* Modal Styles */
+/* ==========================================================================
+   Modal Styles
+   ========================================================================== */
+
 .modal-overlay {
     position: fixed;
     top: 0;
@@ -1238,7 +1287,7 @@ h3 {
     box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-/* FIXED Star Rating - Correct direction */
+/* Star Rating - FIXED */
 .star-rating {
     display: flex;
     gap: 0.5rem;
@@ -1349,7 +1398,10 @@ h3 {
     display: block;
 }
 
-/* Image Modal */
+/* ==========================================================================
+   Image Modal
+   ========================================================================== */
+
 .image-modal .modal {
     max-width: 800px;
     max-height: 85vh;
@@ -1403,7 +1455,10 @@ h3 {
     font-size: 1rem;
 }
 
-/* Business Hours Card with Live Status */
+/* ==========================================================================
+   Business Hours Card with Live Status
+   ========================================================================== */
+
 .hours-card {
     position: relative;
 }
@@ -1452,7 +1507,10 @@ h3 {
     100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
 }
 
-/* Sidebar Cards */
+/* ==========================================================================
+   Sidebar Cards
+   ========================================================================== */
+
 .sidebar-card {
     margin-bottom: var(--spacing-lg);
 }
@@ -1513,7 +1571,10 @@ h3 {
     margin-top: 0.2rem;
 }
 
-/* Footer Styles */
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
 .main-footer {
     background: var(--footer-bg);
     color: white;
@@ -1728,7 +1789,10 @@ h3 {
     color: white;
 }
 
-/* Animations */
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
@@ -1749,28 +1813,9 @@ h3 {
     animation: fadeIn 0.5s ease forwards;
 }
 
-/* Additional Utilities */
-.text-center {
-    text-align: center;
-}
-
-.mb-1 { margin-bottom: var(--spacing-xs); }
-.mb-2 { margin-bottom: var(--spacing-sm); }
-.mb-3 { margin-bottom: var(--spacing-md); }
-.mb-4 { margin-bottom: var(--spacing-lg); }
-.mb-5 { margin-bottom: var(--spacing-xl); }
-
-.mt-1 { margin-top: var(--spacing-xs); }
-.mt-2 { margin-top: var(--spacing-sm); }
-.mt-3 { margin-top: var(--spacing-md); }
-.mt-4 { margin-top: var(--spacing-lg); }
-.mt-5 { margin-top: var(--spacing-xl); }
-
-.p-1 { padding: var(--spacing-xs); }
-.p-2 { padding: var(--spacing-sm); }
-.p-3 { padding: var(--spacing-md); }
-.p-4 { padding: var(--spacing-lg); }
-.p-5 { padding: var(--spacing-xl); }
+/* ==========================================================================
+   Additional Components
+   ========================================================================== */
 
 /* Map Placeholder */
 .map-placeholder {
@@ -1855,6 +1900,10 @@ h3 {
 }
 
 /* Social Cards */
+.our-socials {
+    margin: var(--spacing-xl) 0;
+}
+
 .socials-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1918,4 +1967,122 @@ h3 {
     color: var(--text-secondary);
     font-size: 0.8rem;
     margin-top: 0.25rem;
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+
+.text-center {
+    text-align: center;
+}
+
+.mb-1 { margin-bottom: var(--spacing-xs); }
+.mb-2 { margin-bottom: var(--spacing-sm); }
+.mb-3 { margin-bottom: var(--spacing-md); }
+.mb-4 { margin-bottom: var(--spacing-lg); }
+.mb-5 { margin-bottom: var(--spacing-xl); }
+
+.mt-1 { margin-top: var(--spacing-xs); }
+.mt-2 { margin-top: var(--spacing-sm); }
+.mt-3 { margin-top: var(--spacing-md); }
+.mt-4 { margin-top: var(--spacing-lg); }
+.mt-5 { margin-top: var(--spacing-xl); }
+
+.p-1 { padding: var(--spacing-xs); }
+.p-2 { padding: var(--spacing-sm); }
+.p-3 { padding: var(--spacing-md); }
+.p-4 { padding: var(--spacing-lg); }
+.p-5 { padding: var(--spacing-xl); }
+
+/* ==========================================================================
+   Responsive Utilities
+   ========================================================================== */
+
+@media print {
+    .sticky-cta,
+    .mobile-menu-btn,
+    .nav-button {
+        display: none !important;
+    }
+}
+
+/* ==========================================================================
+   Accessibility Improvements
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ==========================================================================
+   Print Styles
+   ========================================================================== */
+
+@media print {
+    .main-header,
+    .sticky-cta,
+    .mobile-menu-btn,
+    .nav-button,
+    .add-review-btn,
+    .view-reviews-btn,
+    .social-links,
+    .footer-cards,
+    .modal-overlay {
+        display: none !important;
+    }
+    
+    body {
+        background: white !important;
+        color: black !important;
+    }
+    
+    .container {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+    
+    .glass-panel {
+        background: white !important;
+        border: 1px solid #ddd !important;
+        box-shadow: none !important;
+    }
+}
+
+/* ==========================================================================
+   Dark Mode Support (Optional)
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --page-bg: linear-gradient(180deg, #1f2937, #111827);
+        --text-primary: #f9fafb;
+        --text-secondary: #d1d5db;
+        --glass-bg: rgba(31, 41, 55, 0.72);
+        --glass-border: rgba(255, 255, 255, 0.1);
+        --glass-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    }
+    
+    .search-bar {
+        background: rgba(0, 0, 0, 0.3);
+        color: var(--text-primary);
+    }
+    
+    .form-input,
+    .form-textarea,
+    .form-control {
+        background: rgba(0, 0, 0, 0.3);
+        color: var(--text-primary);
+        border-color: var(--glass-border);
+    }
+    
+    .file-upload-label {
+        background: rgba(0, 0, 0, 0.3);
+    }
 }
