@@ -57,7 +57,7 @@
         "tailors.lk_-_alexandra_place_work.jpg"
       ],
       "featured": false,
-      "verified": false,
+      "verified": true,
       "join_date": "2026-02-18"
     },
     {
@@ -3009,7 +3009,7 @@
         "tailors.lk_-_dehiwala_east_shop.jpg",
         "tailors.lk_-_dehiwala_east_work.jpg"
       ],
-      "featured": false,
+      "featured": true,
       "verified": false,
       "join_date": "2026-02-18"
     },
@@ -4395,7 +4395,7 @@
         "first_cross_street_tailoring_services_shop.jpg",
         "first_cross_street_tailoring_services_work.jpg"
       ],
-      "featured": false,
+      "featured": true,
       "verified": false,
       "join_date": "2026-02-18"
     },
@@ -4456,7 +4456,7 @@
         "tailors.lk_-_fort_work.jpg"
       ],
       "featured": false,
-      "verified": false,
+      "verified": true,
       "join_date": "2026-02-18"
     },
     {
@@ -18164,3 +18164,4 @@
     }
   ]
 }
+
