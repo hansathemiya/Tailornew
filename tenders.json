@@ -1,0 +1,56 @@
+{
+  "tenders": [
+    {
+      "id": "colombo-corporate-suits-2025",
+      "title": "Colombo Corporate Suits 2025/26",
+      "category": "Corporate Wear",
+      "location": "Colombo",
+      "volume": "500-750 Units",
+      "min_bid": "LKR 75,000",
+      "entry_fee": "LKR 5,000",
+      "status": "open",
+      "start_date": "2025-05-10",
+      "end_date": "2025-05-20",
+      "description": "Exclusive rights for corporate suit tailoring in Colombo district. Includes banks, hotels, and corporate offices."
+    },
+    {
+      "id": "kandy-school-uniforms-2025",
+      "title": "Kandy School Uniforms 2025",
+      "category": "Uniforms",
+      "location": "Kandy",
+      "volume": "1000-1500 Units",
+      "min_bid": "LKR 50,000",
+      "entry_fee": "LKR 5,000",
+      "status": "open",
+      "start_date": "2025-05-10",
+      "end_date": "2025-05-20",
+      "description": "Annual school uniform contracts for Kandy district schools."
+    },
+    {
+      "id": "galle-hotel-linen-2025",
+      "title": "Galle Hotel Linen & Staff Uniforms",
+      "category": "Hospitality",
+      "location": "Galle",
+      "volume": "300-500 Units",
+      "min_bid": "LKR 60,000",
+      "entry_fee": "LKR 5,000",
+      "status": "upcoming",
+      "start_date": "2025-05-10",
+      "end_date": "2025-05-20",
+      "description": "Staff uniforms and linen for Galle hotels and resorts."
+    },
+    {
+      "id": "jaffna-event-wear-2025",
+      "title": "Jaffna Festival & Event Wear",
+      "category": "Event Wear",
+      "location": "Jaffna",
+      "volume": "200-350 Units",
+      "min_bid": "LKR 40,000",
+      "entry_fee": "LKR 5,000",
+      "status": "closed",
+      "start_date": "2024-05-10",
+      "end_date": "2024-05-20",
+      "description": "Traditional event wear for Jaffna cultural festivals."
+    }
+  ]
+}
